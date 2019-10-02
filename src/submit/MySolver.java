@@ -82,6 +82,7 @@ public class MySolver implements Flow.Solver {
                     Quad current = it.next();
                     // calculate new IN
                     Flow.DataflowObject in = analysis.newTempVar();
+                    in.setToTop();
                     for (Iterator<Quad> iter = it.predecessors(); iter.hasNext(); ) {
                         Quad pred = iter.next();
                         in.meetWith(pred == null ? analysis.getEntry() : analysis.getOut(pred));
@@ -98,6 +99,7 @@ public class MySolver implements Flow.Solver {
                     Quad current = it.previous();
                     // calculate new OUT
                     Flow.DataflowObject out = analysis.newTempVar();
+                    out.setToTop();
                     for (Iterator<Quad> iter = it.successors(); iter.hasNext(); ) {
                         Quad pred = iter.next();
                         out.meetWith(pred == null ? analysis.getExit() : analysis.getIn(pred));
