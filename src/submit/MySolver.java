@@ -41,7 +41,7 @@ public class MySolver implements Flow.Solver {
          * Your code goes here *
          ***********************/
 
-        // direction
+        // iteration direction
         boolean forward = analysis.isForward();
 
         // initialize the top element
