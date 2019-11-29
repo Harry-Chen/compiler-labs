@@ -23,16 +23,14 @@ class Optimize {
         FlowSolver solver = new FlowSolver();
         RedundantNullChecks redundantNullChecksAnalysis = new RedundantNullChecks();
         redundantNullChecksAnalysis.setMode(RedundantNullChecks.Mode.REMOVE);
+        if (!nullCheckOnly) {
+            redundantNullChecksAnalysis.setRemoveExtra(true);
+        }
         solver.registerAnalysis(redundantNullChecksAnalysis);
 
         for (String className : optimizeClasses) {
             jq_Class clazz = (jq_Class) Helper.load(className);
             Helper.runPass(clazz, solver);
-
-            if (!nullCheckOnly) {
-                // TODO: Run your extra optimizations. (Not required)
-            }
-
             outputs.add(clazz);
         }
         return outputs;

@@ -3,9 +3,13 @@ package submit;
 import flow.Flow;
 import joeq.Compiler.Quad.*;
 import joeq.Compiler.Quad.Operand.RegisterOperand;
+import joeq.Util.Templates.UnmodifiableList;
 
 import java.util.Set;
 import java.util.TreeSet;
+
+import static joeq.Compiler.BytecodeAnalysis.BytecodeVisitor.CMP_EQ;
+import static joeq.Compiler.BytecodeAnalysis.BytecodeVisitor.CMP_NE;
 
 public class RedundantNullChecks implements Flow.Analysis {
 
@@ -17,6 +21,7 @@ public class RedundantNullChecks implements Flow.Analysis {
     private VarSet entry, exit;
     private TransferFunction transferfn = new TransferFunction();
     private Mode mode = Mode.PRINT;
+    private boolean removeExtra = false;
 
     private boolean isRedundantNullCheck(Quad q) {
         // check operator type
@@ -34,6 +39,10 @@ public class RedundantNullChecks implements Flow.Analysis {
 
     public void setMode(Mode m) {
         this.mode = m;
+    }
+
+    public void setRemoveExtra(boolean enable) {
+        removeExtra = enable;
     }
 
     public void preprocess(ControlFlowGraph cfg) {
@@ -80,6 +89,7 @@ public class RedundantNullChecks implements Flow.Analysis {
 
     public void postprocess(ControlFlowGraph cfg) {
         Set<Integer> redundantChecks = new TreeSet<Integer>();
+        // first, search for already checked variables
         QuadIterator it = new QuadIterator(cfg);
         while (it.hasNext()) {
             Quad q = it.next();
@@ -89,6 +99,44 @@ public class RedundantNullChecks implements Flow.Analysis {
                 if (mode == Mode.REMOVE) {
                     it.remove();
                 }
+            }
+        }
+        // then, for the bonus point, search for NULLCHECK proceeding a false branch of IFCMP_A
+        if (removeExtra) {
+            it = new QuadIterator(cfg);
+            while (it.hasNext()) {
+                Quad q = it.next();
+                if (q.getOperator() instanceof Operator.IntIfCmp.IFCMP_A) {
+                    UnmodifiableList.Operand operands = q.getAllOperands();
+                    // check if it is IFCMP_A R, null, EQ/NE, BB
+                    Operand op1 = operands.getOperand(0);
+                    Operand op2 = operands.getOperand(1);
+                    if (op1 instanceof Operand.RegisterOperand && op2 instanceof Operand.AConstOperand) {
+                        if (((Operand.AConstOperand) op2).getValue() == null) {
+                            Operand.ConditionOperand cond = (Operand.ConditionOperand) operands.getOperand(2);
+                            Quad quadToCheck;
+                            if (cond.isSimilar(new Operand.ConditionOperand(CMP_EQ))) {
+                                // EQ, eliminate NULL_CHECK in successor 0 (non-target branch)
+                                quadToCheck = (Quad) it.successors1().toArray()[0];
+                            } else if (cond.isSimilar(new Operand.ConditionOperand(CMP_NE))) {
+                                // NE, eliminate NULL_CHECK in successor 1 (target branch)
+                                quadToCheck = (Quad) it.successors1().toArray()[0];
+                            } else {
+                                throw new IllegalStateException("Can only check EQ or NE in IFCMP_A");
+                            }
+                            // see if next instruction is NULL_CHECK and can be eliminated
+                            if (quadToCheck.getOperator() instanceof Operator.NullCheck) {
+                                if (quadToCheck.getUsedRegisters().get(0).getRegister().toString().equals(((RegisterOperand) op1).getRegister().toString())) {
+                                    redundantChecks.add(q.getID());
+                                    if (mode == Mode.REMOVE) {
+                                        it.remove();
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
             }
         }
         // determine whether to print
