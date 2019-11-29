@@ -1,7 +1,6 @@
 package submit;
 
 import examples.PrintQuads;
-import flow.Flow;
 import flow.FlowSolver;
 import joeq.Class.jq_Class;
 import joeq.Interpreter.QuadInterpreter;
@@ -22,9 +21,9 @@ class Optimize {
         List<jq_Class> outputs = new ArrayList<jq_Class>();
 
         FlowSolver solver = new FlowSolver();
-        NullCheckedVariable nullCheckedVariableAnalysis = new NullCheckedVariable();
-        nullCheckedVariableAnalysis.setMode(NullCheckedVariable.Mode.REMOVE);
-        solver.registerAnalysis(nullCheckedVariableAnalysis);
+        RedundantNullChecks redundantNullChecksAnalysis = new RedundantNullChecks();
+        redundantNullChecksAnalysis.setMode(RedundantNullChecks.Mode.REMOVE);
+        solver.registerAnalysis(redundantNullChecksAnalysis);
 
         for (String className : optimizeClasses) {
             jq_Class clazz = (jq_Class) Helper.load(className);

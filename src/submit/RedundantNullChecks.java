@@ -7,7 +7,7 @@ import joeq.Compiler.Quad.Operand.RegisterOperand;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class NullCheckedVariable implements Flow.Analysis {
+public class RedundantNullChecks implements Flow.Analysis {
 
     public enum Mode {
         PRINT, VERBOSE, REMOVE
