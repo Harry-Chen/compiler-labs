@@ -15,7 +15,6 @@ public class RedundantNullChecks implements Flow.Analysis {
 
     private VarSet[] in, out;
     private VarSet entry, exit;
-    private Set<Integer> redundantChecks;
     private TransferFunction transferfn = new TransferFunction();
     private Mode mode = Mode.PRINT;
 
@@ -80,7 +79,7 @@ public class RedundantNullChecks implements Flow.Analysis {
     }
 
     public void postprocess(ControlFlowGraph cfg) {
-        redundantChecks = new TreeSet<Integer>();
+        Set<Integer> redundantChecks = new TreeSet<Integer>();
         QuadIterator it = new QuadIterator(cfg);
         while (it.hasNext()) {
             Quad q = it.next();
