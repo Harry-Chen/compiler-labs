@@ -18,10 +18,10 @@ public class FindRedundantNullChecks {
      */
     public static void main(String[] args) {
         FlowSolver solver = new FlowSolver();
+        Flow.Analysis analysis = new NullCheckedVariable();
+        solver.registerAnalysis(analysis);
         for (String name : args) {
             jq_Class clazz = (jq_Class) Helper.load(name);
-            Flow.Analysis analysis = new NullCheckedVariable();
-            solver.registerAnalysis(analysis);
             Helper.runPass(clazz, solver);
         }
     }

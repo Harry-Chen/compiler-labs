@@ -1,6 +1,8 @@
 package submit;
 
 import examples.PrintQuads;
+import flow.Flow;
+import flow.FlowSolver;
 import joeq.Class.jq_Class;
 import joeq.Interpreter.QuadInterpreter;
 import joeq.Main.Driver;
@@ -18,10 +20,15 @@ class Optimize {
      */
     private static List<jq_Class> optimize(List<String> optimizeClasses, boolean nullCheckOnly) {
         List<jq_Class> outputs = new ArrayList<jq_Class>();
+
+        FlowSolver solver = new FlowSolver();
+        NullCheckedVariable nullCheckedVariableAnalysis = new NullCheckedVariable();
+        nullCheckedVariableAnalysis.setMode(NullCheckedVariable.Mode.REMOVE);
+        solver.registerAnalysis(nullCheckedVariableAnalysis);
+
         for (String className : optimizeClasses) {
             jq_Class clazz = (jq_Class) Helper.load(className);
-
-            // TODO: Remove redundant null checks
+            Helper.runPass(clazz, solver);
 
             if (!nullCheckOnly) {
                 // TODO: Run your extra optimizations. (Not required)
