@@ -15,7 +15,7 @@ result: $(RESULTS)
 	$(CXX) $(CFLAGS) -o $@ $<
 
 %.txt: %
-	/usr/bin/time -v ./$< datasets/wiki0.01.txt 2>&1 | tee $@
+	sudo perf stat -B -e cache-references,cache-misses,cycles,instructions,branches,faults,migrations /usr/bin/time -v ./$< datasets/wiki0.01.txt 2>&1 | tee $@
 
 clean:
 	rm -f $(TARGETS)
