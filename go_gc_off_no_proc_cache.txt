@@ -1,0 +1,20 @@
+num origin words: 20385718
+num filtered words: 17609533
+num different words: 385372
+
+ Performance counter stats for 'env GOGC=off ./wordcount datasets/wiki0.01.txt':
+
+     1,008,880,770      cache-references                                            
+       163,675,284      cache-misses              #   16.223 % of all cache refs    
+   154,949,426,964      cycles                                                      
+   270,817,714,738      instructions              #    1.75  insn per cycle         
+    54,837,743,508      branches                                                    
+         5,103,339      faults                                                      
+                 2      migrations                                                  
+
+      45.382359636 seconds time elapsed
+
+      33.152308000 seconds user
+      12.345051000 seconds sys
+
+
