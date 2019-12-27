@@ -1,3 +1,0 @@
-num origin words: 2193010
-num filtered words: 1890358
-num different words: 89784
