@@ -7,6 +7,8 @@
 
 #include "my_shared_ptr.hpp"
 
+using shared_string = my_shared_ptr<std::string>;
+
 int main(int argc, char *argv[]) {
 
     if (argc != 2) {
@@ -19,7 +21,7 @@ int main(int argc, char *argv[]) {
 
     std::regex whitespace("\\s+");
 
-    std::vector<my_shared_ptr<std::string>> words;
+    std::vector<shared_string> words;
 
     std::for_each(std::sregex_token_iterator(data.begin(), data.end(), whitespace, -1), std::sregex_token_iterator(), [&](auto s){
         words.push_back(my_shared_ptr<std::string>(new std::string(s)));
@@ -27,7 +29,7 @@ int main(int argc, char *argv[]) {
 
     std::cout << "num origin words: " << words.size() << std::endl;
 
-    std::vector<my_shared_ptr<std::string>> tmp;
+    std::vector<shared_string> tmp;
 
     for (auto w: words) {
         std::regex reg("[^a-zA-Z0-9]+");
@@ -51,13 +53,16 @@ int main(int argc, char *argv[]) {
 
     std::cout << "num filtered words: " << words.size() << std::endl;
 
-    std::unordered_map<std::string, int> wordCount;
+    std::unordered_map<shared_string, int> wordCount;
 
     for (auto w: words) {
-        wordCount[*w]++;
+        wordCount[w]++;
     }
 
     std::cout << "num different words: " << wordCount.size() << std::endl;
+    
+    std::cout << "Reference increase count: " << shared_string::get_increase_count() << std::endl;
+    std::cout << "Reference decrease count: " << shared_string::get_decrease_count() << std::endl;
 
 
     return 0;

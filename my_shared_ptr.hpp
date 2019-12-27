@@ -39,6 +39,10 @@ private:
 
 public:
 
+    bool operator==(const my_shared_ptr<T> &other) const {
+        return data == other.data || *data == *(other.data);
+    }
+
     my_shared_ptr() = delete;
 
     my_shared_ptr(T *data): data(data), counter(new int(0)) {
@@ -66,25 +70,44 @@ public:
         decrease_ref();
     }
 
-    T* get() {
+    T* get() const {
         return data;
     }
 
-    T* operator->() {
+    T* operator->() const {
         return data;
     }
 
-    T& operator*() {
+    T& operator*() const {
         return *data;
     }
 
-    int get_decrease_count() { return decrease_count; }
+    static int get_decrease_count();
     
-    int get_increase_count() { return increase_count; }
+    static int get_increase_count();
 
 };
 
 template <typename T> int my_shared_ptr<T>::increase_count = 0;
 template <typename T> int my_shared_ptr<T>::decrease_count = 0;
+
+template <typename T> int my_shared_ptr<T>::get_increase_count() {
+    return my_shared_ptr<T>::increase_count;
+}
+
+template <typename T> int my_shared_ptr<T>::get_decrease_count() {
+    return my_shared_ptr<T>::decrease_count;
+}
+
+namespace std {
+
+  template <typename T>
+  struct hash<my_shared_ptr<T>> {
+    std::size_t operator()(const my_shared_ptr<T>& k) const {
+      return reinterpret_cast<std::size_t>(k.get());
+    }
+  };
+
+}
 
 #endif
