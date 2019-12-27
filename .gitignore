@@ -1,5 +1,6 @@
 datasets/
 wordcount*
+!*.cpp
 !*.txt
 .vscode/
 

@@ -23,8 +23,9 @@ int main(int argc, char *argv[]) {
 
     std::vector<std::string> tmp;
 
+    std::regex reg("[^a-zA-Z0-9]+");
+
     for (auto w: words) {
-        std::regex reg("[^a-zA-Z0-9]+");
         auto w_ = std::regex_replace(w, reg, "");
         if (w_ != "") {
             tmp.push_back(w_);
