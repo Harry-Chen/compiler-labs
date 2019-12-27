@@ -24,7 +24,7 @@ int main(int argc, char *argv[]) {
     std::vector<shared_string> words;
 
     std::for_each(std::sregex_token_iterator(data.begin(), data.end(), whitespace, -1), std::sregex_token_iterator(), [&](auto s){
-        words.push_back(my_shared_ptr<std::string>(new std::string(s)));
+        words.push_back(shared_string(new std::string(s)));
     });
 
     std::cout << "num origin words: " << words.size() << std::endl;

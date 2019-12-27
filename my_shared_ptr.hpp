@@ -4,16 +4,14 @@
 #include <cassert>
 #include <iostream>
 
-template <typename T>
-struct my_shared_ptr {
-    
-private:
+template <typename T> struct my_shared_ptr {
 
+  private:
     T *data;
     int *counter;
 
     static int increase_count, decrease_count;
-    
+
     void decrease_ref() {
         (*counter)--;
 #ifdef DEBUG
@@ -37,15 +35,14 @@ private:
         ++increase_count;
     }
 
-public:
-
+  public:
     bool operator==(const my_shared_ptr<T> &other) const {
         return data == other.data || *data == *(other.data);
     }
 
     my_shared_ptr() = delete;
 
-    my_shared_ptr(T *data): data(data), counter(new int(0)) {
+    my_shared_ptr(T *data) : data(data), counter(new int(0)) {
         assert(data != nullptr);
 #ifdef DEBUG
         std::cerr << data << " constructs" << std::endl;
@@ -53,12 +50,14 @@ public:
         increase_ref();
     }
 
-    my_shared_ptr(const my_shared_ptr<T> &rhs): counter(rhs.counter), data(rhs.data) {
+    my_shared_ptr(const my_shared_ptr<T> &rhs)
+        : counter(rhs.counter), data(rhs.data) {
         increase_ref();
     }
 
-    my_shared_ptr<T>& operator=(const my_shared_ptr<T> &rhs) {
-        if (&rhs == this) return *this;
+    my_shared_ptr<T> &operator=(const my_shared_ptr<T> &rhs) {
+        if (&rhs == this)
+            return *this;
         decrease_ref();
         this->data = rhs.data;
         this->counter = rhs.counter;
@@ -66,26 +65,17 @@ public:
         return *this;
     }
 
-    ~my_shared_ptr() {
-        decrease_ref();
-    }
+    ~my_shared_ptr() { decrease_ref(); }
 
-    T* get() const {
-        return data;
-    }
+    T *get() const { return data; }
 
-    T* operator->() const {
-        return data;
-    }
+    T *operator->() const { return data; }
 
-    T& operator*() const {
-        return *data;
-    }
+    T &operator*() const { return *data; }
 
     static int get_decrease_count();
-    
-    static int get_increase_count();
 
+    static int get_increase_count();
 };
 
 template <typename T> int my_shared_ptr<T>::increase_count = 0;
@@ -101,13 +91,13 @@ template <typename T> int my_shared_ptr<T>::get_decrease_count() {
 
 namespace std {
 
-  template <typename T>
-  struct hash<my_shared_ptr<T>> {
-    std::size_t operator()(const my_shared_ptr<T>& k) const {
-      return reinterpret_cast<std::size_t>(k.get());
+template <typename T> struct hash<my_shared_ptr<T>> {
+    hash<std::string> hasher;
+    std::size_t operator()(const my_shared_ptr<T> &k) const {
+        return hasher(*k);
     }
-  };
+};
 
-}
+} // namespace std
 
 #endif
