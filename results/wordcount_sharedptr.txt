@@ -2,20 +2,20 @@ num origin words: 20385718
 num filtered words: 17609533
 num different words: 17609533
 	Command being timed: "./wordcount_sharedptr datasets/wiki0.01.txt"
-	User time (seconds): 20.18
-	System time (seconds): 1.98
+	User time (seconds): 19.70
+	System time (seconds): 3.24
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:22.17
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:22.95
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 3279028
+	Maximum resident set size (kbytes): 3279876
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 24
-	Minor (reclaiming a frame) page faults: 898667
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1370171
 	Voluntary context switches: 1
-	Involuntary context switches: 17
+	Involuntary context switches: 30
 	Swaps: 0
 	File system inputs: 216398
 	File system outputs: 0
@@ -24,3 +24,20 @@ num different words: 17609533
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
+
+ Performance counter stats for '/usr/bin/time -v ./wordcount_sharedptr datasets/wiki0.01.txt':
+
+       748,061,683      cache-references                                            
+       406,877,887      cache-misses              #   54.391 % of all cache refs    
+    68,897,689,069      cycles                                                      
+   145,129,437,673      instructions              #    2.11  insn per cycle         
+    28,733,971,539      branches                                                    
+         1,370,228      faults                                                      
+                 3      migrations                                                  
+
+      22.953103682 seconds time elapsed
+
+      19.708725000 seconds user
+       3.243757000 seconds sys
+
+

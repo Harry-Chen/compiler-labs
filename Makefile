@@ -5,11 +5,11 @@ RESULTS=$(SOURCES:.cpp=.txt)
 
 CFLAGS := -O3 -g -Wall
 
-.PHONY: all result clean distclean
+.PHONY: all results clean resultsclean distclean
 
 all: $(TARGETS)
 
-result: $(RESULTS)
+results: $(RESULTS)
 
 %: %.cpp $(HEADERS)
 	$(CXX) $(CFLAGS) -o $@ $<
@@ -20,6 +20,9 @@ result: $(RESULTS)
 clean:
 	rm -f $(TARGETS)
 
-distclean: clean
+resultsclean:
 	rm -f $(RESULTS)
+
+distclean: clean resultsclean
+
 
