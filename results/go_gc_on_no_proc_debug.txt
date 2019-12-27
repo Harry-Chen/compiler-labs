@@ -1,0 +1,933 @@
+gc 1 @0.006s 1%: 0.028+0.48+0.062 ms clock, 2.5+0/0.12/0.67+5.5 ms cpu, 106->106->106 MB, 107 MB goal, 88 P
+gc 2 @0.103s 0%: 0.017+171+0.094 ms clock, 1.5+0/0.11/49+8.3 ms cpu, 212->212->106 MB, 213 MB goal, 88 P
+gc 3 @0.353s 0%: 0.015+3.2+0.073 ms clock, 1.4+0/0.022/3.8+6.4 ms cpu, 212->212->127 MB, 213 MB goal, 88 P
+gc 4 @0.482s 0%: 0.075+25+0.060 ms clock, 6.6+0/0.11/26+5.3 ms cpu, 280->280->158 MB, 281 MB goal, 88 P
+gc 5 @0.736s 0%: 0.016+15+0.076 ms clock, 1.4+0/0.026/16+6.7 ms cpu, 404->404->207 MB, 405 MB goal, 88 P
+gc 6 @0.943s 0%: 0.016+51+0.060 ms clock, 1.4+0/0.016/52+5.3 ms cpu, 491->491->264 MB, 492 MB goal, 88 P
+gc 7 @1.366s 0%: 0.037+118+0.061 ms clock, 3.3+0/0.022/119+5.4 ms cpu, 708->708->353 MB, 709 MB goal, 88 P
+gc 8 @1.914s 0%: 0.017+207+0.049 ms clock, 1.5+0/0.098/207+4.3 ms cpu, 1047->1047->492 MB, 1048 MB goal, 88 P
+num origin words: 20385718
+gc 9 @2.580s 0%: 0.017+31+0.096 ms clock, 1.5+0.90/442/490+8.4 ms cpu, 959->965->427 MB, 984 MB goal, 88 P
+scvg: 2 MB released
+scvg: inuse: 965, idle: 1078, sys: 2044, released: 803, consumed: 1241 (MB)
+scvg: 4 MB released
+scvg: inuse: 461, idle: 1583, sys: 2044, released: 805, consumed: 1239 (MB)
+scvg: 4 MB released
+scvg: inuse: 482, idle: 1562, sys: 2044, released: 805, consumed: 1239 (MB)
+scvg: inuse: 488, idle: 1556, sys: 2044, released: 805, consumed: 1239 (MB)
+scvg: inuse: 488, idle: 1556, sys: 2044, released: 805, consumed: 1239 (MB)
+scvg: inuse: 488, idle: 1556, sys: 2044, released: 805, consumed: 1239 (MB)
+scvg: 2 MB released
+scvg: inuse: 488, idle: 1556, sys: 2044, released: 807, consumed: 1237 (MB)
+scvg: 2 MB released
+scvg: inuse: 512, idle: 1532, sys: 2044, released: 809, consumed: 1235 (MB)
+scvg: 6 MB released
+scvg: inuse: 540, idle: 1504, sys: 2044, released: 811, consumed: 1233 (MB)
+scvg: 2 MB released
+scvg: inuse: 560, idle: 1484, sys: 2044, released: 813, consumed: 1231 (MB)
+scvg: 6 MB released
+scvg: inuse: 591, idle: 1453, sys: 2044, released: 813, consumed: 1231 (MB)
+scvg: 2 MB released
+scvg: inuse: 596, idle: 1448, sys: 2044, released: 815, consumed: 1229 (MB)
+scvg: 24 MB released
+scvg: inuse: 619, idle: 1424, sys: 2044, released: 816, consumed: 1228 (MB)
+scvg: 14 MB released
+scvg: inuse: 632, idle: 1412, sys: 2044, released: 818, consumed: 1226 (MB)
+scvg: 22 MB released
+scvg: inuse: 653, idle: 1391, sys: 2044, released: 819, consumed: 1225 (MB)
+scvg: 10 MB released
+scvg: inuse: 663, idle: 1381, sys: 2044, released: 819, consumed: 1225 (MB)
+scvg: 10 MB released
+scvg: inuse: 672, idle: 1372, sys: 2044, released: 820, consumed: 1224 (MB)
+scvg: 10 MB released
+scvg: inuse: 681, idle: 1362, sys: 2044, released: 820, consumed: 1224 (MB)
+scvg: 4 MB released
+scvg: inuse: 685, idle: 1359, sys: 2044, released: 821, consumed: 1223 (MB)
+scvg: 4 MB released
+scvg: inuse: 691, idle: 1353, sys: 2044, released: 821, consumed: 1222 (MB)
+scvg: 2 MB released
+scvg: inuse: 700, idle: 1344, sys: 2044, released: 823, consumed: 1220 (MB)
+scvg: 2 MB released
+scvg: inuse: 726, idle: 1317, sys: 2044, released: 825, consumed: 1218 (MB)
+scvg: 2 MB released
+scvg: inuse: 753, idle: 1291, sys: 2044, released: 827, consumed: 1216 (MB)
+scvg: 2 MB released
+scvg: inuse: 787, idle: 1257, sys: 2044, released: 829, consumed: 1214 (MB)
+scvg: 2 MB released
+scvg: inuse: 812, idle: 1231, sys: 2044, released: 831, consumed: 1212 (MB)
+scvg: inuse: 834, idle: 1210, sys: 2044, released: 831, consumed: 1212 (MB)
+scvg: inuse: 834, idle: 1210, sys: 2044, released: 831, consumed: 1212 (MB)
+scvg: inuse: 834, idle: 1210, sys: 2044, released: 831, consumed: 1212 (MB)
+scvg: inuse: 834, idle: 1210, sys: 2044, released: 831, consumed: 1212 (MB)
+scvg: inuse: 834, idle: 1210, sys: 2044, released: 831, consumed: 1212 (MB)
+scvg: inuse: 834, idle: 1210, sys: 2044, released: 831, consumed: 1212 (MB)
+scvg: inuse: 835, idle: 1209, sys: 2044, released: 831, consumed: 1212 (MB)
+scvg: inuse: 836, idle: 1207, sys: 2044, released: 831, consumed: 1212 (MB)
+scvg: 2 MB released
+scvg: inuse: 836, idle: 1207, sys: 2044, released: 833, consumed: 1210 (MB)
+gc 10 @3.693s 0%: 0.063+26+0.083 ms clock, 5.6+3.5/445/811+7.3 ms cpu, 833->837->437 MB, 854 MB goal, 88 P
+scvg: 2 MB released
+scvg: inuse: 814, idle: 1229, sys: 2044, released: 835, consumed: 1208 (MB)
+scvg: 2 MB released
+scvg: inuse: 788, idle: 1255, sys: 2044, released: 837, consumed: 1206 (MB)
+scvg: 2 MB released
+scvg: inuse: 764, idle: 1279, sys: 2044, released: 839, consumed: 1204 (MB)
+scvg: 2 MB released
+scvg: inuse: 739, idle: 1304, sys: 2044, released: 841, consumed: 1202 (MB)
+scvg: 2 MB released
+scvg: inuse: 713, idle: 1330, sys: 2044, released: 843, consumed: 1200 (MB)
+scvg: 2 MB released
+scvg: inuse: 691, idle: 1352, sys: 2044, released: 845, consumed: 1198 (MB)
+scvg: 2 MB released
+scvg: inuse: 662, idle: 1381, sys: 2044, released: 847, consumed: 1196 (MB)
+scvg: 2 MB released
+scvg: inuse: 639, idle: 1404, sys: 2044, released: 849, consumed: 1194 (MB)
+scvg: 2 MB released
+scvg: inuse: 616, idle: 1428, sys: 2044, released: 851, consumed: 1192 (MB)
+scvg: 2 MB released
+scvg: inuse: 577, idle: 1466, sys: 2044, released: 853, consumed: 1190 (MB)
+scvg: 2 MB released
+scvg: inuse: 538, idle: 1505, sys: 2044, released: 855, consumed: 1188 (MB)
+scvg: 2 MB released
+scvg: inuse: 504, idle: 1539, sys: 2044, released: 857, consumed: 1186 (MB)
+scvg: 2 MB released
+scvg: inuse: 469, idle: 1574, sys: 2044, released: 859, consumed: 1184 (MB)
+scvg: 2 MB released
+scvg: inuse: 470, idle: 1573, sys: 2044, released: 861, consumed: 1182 (MB)
+scvg: 2 MB released
+scvg: inuse: 471, idle: 1572, sys: 2044, released: 863, consumed: 1180 (MB)
+scvg: 2 MB released
+scvg: inuse: 472, idle: 1571, sys: 2044, released: 865, consumed: 1178 (MB)
+scvg: 2 MB released
+scvg: inuse: 473, idle: 1570, sys: 2044, released: 867, consumed: 1176 (MB)
+scvg: 2 MB released
+scvg: inuse: 475, idle: 1569, sys: 2044, released: 869, consumed: 1174 (MB)
+scvg: 2 MB released
+scvg: inuse: 476, idle: 1568, sys: 2044, released: 871, consumed: 1172 (MB)
+scvg: 2 MB released
+scvg: inuse: 477, idle: 1566, sys: 2044, released: 873, consumed: 1170 (MB)
+scvg: 2 MB released
+scvg: inuse: 478, idle: 1565, sys: 2044, released: 875, consumed: 1168 (MB)
+scvg: 2 MB released
+scvg: inuse: 480, idle: 1564, sys: 2044, released: 877, consumed: 1166 (MB)
+scvg: 2 MB released
+scvg: inuse: 481, idle: 1563, sys: 2044, released: 879, consumed: 1164 (MB)
+scvg: 2 MB released
+scvg: inuse: 482, idle: 1561, sys: 2044, released: 881, consumed: 1162 (MB)
+scvg: 2 MB released
+scvg: inuse: 483, idle: 1560, sys: 2044, released: 883, consumed: 1160 (MB)
+scvg: 2 MB released
+scvg: inuse: 484, idle: 1559, sys: 2044, released: 885, consumed: 1158 (MB)
+scvg: 2 MB released
+scvg: inuse: 486, idle: 1558, sys: 2044, released: 887, consumed: 1156 (MB)
+scvg: 2 MB released
+scvg: inuse: 487, idle: 1557, sys: 2044, released: 889, consumed: 1154 (MB)
+scvg: 2 MB released
+scvg: inuse: 488, idle: 1555, sys: 2044, released: 891, consumed: 1152 (MB)
+scvg: 2 MB released
+scvg: inuse: 489, idle: 1554, sys: 2044, released: 893, consumed: 1150 (MB)
+scvg: 2 MB released
+scvg: inuse: 490, idle: 1553, sys: 2044, released: 895, consumed: 1148 (MB)
+scvg: 2 MB released
+scvg: inuse: 492, idle: 1552, sys: 2044, released: 897, consumed: 1146 (MB)
+scvg: 2 MB released
+scvg: inuse: 493, idle: 1551, sys: 2044, released: 899, consumed: 1144 (MB)
+scvg: 2 MB released
+scvg: inuse: 494, idle: 1549, sys: 2044, released: 901, consumed: 1142 (MB)
+scvg: 2 MB released
+scvg: inuse: 495, idle: 1548, sys: 2044, released: 903, consumed: 1140 (MB)
+scvg: 2 MB released
+scvg: inuse: 496, idle: 1547, sys: 2044, released: 905, consumed: 1138 (MB)
+scvg: 2 MB released
+scvg: inuse: 498, idle: 1546, sys: 2044, released: 907, consumed: 1136 (MB)
+scvg: 2 MB released
+scvg: inuse: 499, idle: 1545, sys: 2044, released: 909, consumed: 1134 (MB)
+scvg: 2 MB released
+scvg: inuse: 500, idle: 1543, sys: 2044, released: 911, consumed: 1132 (MB)
+scvg: 2 MB released
+scvg: inuse: 512, idle: 1532, sys: 2044, released: 913, consumed: 1130 (MB)
+scvg: 2 MB released
+scvg: inuse: 512, idle: 1532, sys: 2044, released: 915, consumed: 1128 (MB)
+scvg: 2 MB released
+scvg: inuse: 513, idle: 1531, sys: 2044, released: 917, consumed: 1126 (MB)
+scvg: 2 MB released
+scvg: inuse: 514, idle: 1530, sys: 2044, released: 919, consumed: 1124 (MB)
+scvg: 2 MB released
+scvg: inuse: 515, idle: 1528, sys: 2044, released: 921, consumed: 1122 (MB)
+scvg: 2 MB released
+scvg: inuse: 517, idle: 1527, sys: 2044, released: 923, consumed: 1120 (MB)
+scvg: 2 MB released
+scvg: inuse: 519, idle: 1525, sys: 2044, released: 925, consumed: 1118 (MB)
+scvg: 2 MB released
+scvg: inuse: 521, idle: 1523, sys: 2044, released: 927, consumed: 1116 (MB)
+scvg: 2 MB released
+scvg: inuse: 523, idle: 1521, sys: 2044, released: 929, consumed: 1114 (MB)
+scvg: 2 MB released
+scvg: inuse: 524, idle: 1519, sys: 2044, released: 931, consumed: 1112 (MB)
+scvg: 2 MB released
+scvg: inuse: 526, idle: 1517, sys: 2044, released: 933, consumed: 1110 (MB)
+scvg: 2 MB released
+scvg: inuse: 528, idle: 1515, sys: 2044, released: 935, consumed: 1108 (MB)
+scvg: 2 MB released
+scvg: inuse: 530, idle: 1513, sys: 2044, released: 937, consumed: 1106 (MB)
+scvg: 2 MB released
+scvg: inuse: 532, idle: 1511, sys: 2044, released: 939, consumed: 1104 (MB)
+scvg: 2 MB released
+scvg: inuse: 534, idle: 1509, sys: 2044, released: 941, consumed: 1102 (MB)
+scvg: 2 MB released
+scvg: inuse: 536, idle: 1507, sys: 2044, released: 943, consumed: 1100 (MB)
+scvg: 2 MB released
+scvg: inuse: 538, idle: 1505, sys: 2044, released: 945, consumed: 1098 (MB)
+scvg: 2 MB released
+scvg: inuse: 541, idle: 1503, sys: 2044, released: 947, consumed: 1096 (MB)
+scvg: 2 MB released
+scvg: inuse: 543, idle: 1501, sys: 2044, released: 949, consumed: 1094 (MB)
+scvg: 2 MB released
+scvg: inuse: 545, idle: 1499, sys: 2044, released: 951, consumed: 1092 (MB)
+scvg: 2 MB released
+scvg: inuse: 547, idle: 1497, sys: 2044, released: 953, consumed: 1090 (MB)
+scvg: 2 MB released
+scvg: inuse: 549, idle: 1495, sys: 2044, released: 955, consumed: 1088 (MB)
+scvg: 2 MB released
+scvg: inuse: 551, idle: 1493, sys: 2044, released: 957, consumed: 1086 (MB)
+scvg: 2 MB released
+scvg: inuse: 553, idle: 1491, sys: 2044, released: 959, consumed: 1084 (MB)
+scvg: 2 MB released
+scvg: inuse: 555, idle: 1489, sys: 2044, released: 961, consumed: 1082 (MB)
+scvg: 2 MB released
+scvg: inuse: 557, idle: 1487, sys: 2044, released: 963, consumed: 1080 (MB)
+scvg: 2 MB released
+scvg: inuse: 559, idle: 1485, sys: 2044, released: 965, consumed: 1078 (MB)
+scvg: 2 MB released
+scvg: inuse: 561, idle: 1483, sys: 2044, released: 967, consumed: 1076 (MB)
+scvg: 2 MB released
+scvg: inuse: 563, idle: 1481, sys: 2044, released: 969, consumed: 1074 (MB)
+scvg: 2 MB released
+scvg: inuse: 565, idle: 1478, sys: 2044, released: 971, consumed: 1072 (MB)
+scvg: 2 MB released
+scvg: inuse: 567, idle: 1476, sys: 2044, released: 973, consumed: 1070 (MB)
+scvg: 2 MB released
+scvg: inuse: 569, idle: 1474, sys: 2044, released: 975, consumed: 1068 (MB)
+scvg: 2 MB released
+scvg: inuse: 571, idle: 1472, sys: 2044, released: 977, consumed: 1066 (MB)
+scvg: 2 MB released
+scvg: inuse: 573, idle: 1470, sys: 2044, released: 979, consumed: 1064 (MB)
+scvg: 2 MB released
+scvg: inuse: 575, idle: 1468, sys: 2044, released: 981, consumed: 1062 (MB)
+scvg: 2 MB released
+scvg: inuse: 577, idle: 1466, sys: 2044, released: 983, consumed: 1060 (MB)
+scvg: 2 MB released
+scvg: inuse: 579, idle: 1464, sys: 2044, released: 985, consumed: 1058 (MB)
+scvg: 2 MB released
+scvg: inuse: 581, idle: 1462, sys: 2044, released: 987, consumed: 1056 (MB)
+scvg: 2 MB released
+scvg: inuse: 583, idle: 1460, sys: 2044, released: 989, consumed: 1054 (MB)
+scvg: 2 MB released
+scvg: inuse: 585, idle: 1458, sys: 2044, released: 991, consumed: 1052 (MB)
+scvg: 2 MB released
+scvg: inuse: 587, idle: 1456, sys: 2044, released: 993, consumed: 1050 (MB)
+scvg: 2 MB released
+scvg: inuse: 589, idle: 1454, sys: 2044, released: 995, consumed: 1048 (MB)
+scvg: 2 MB released
+scvg: inuse: 591, idle: 1452, sys: 2044, released: 997, consumed: 1046 (MB)
+scvg: 2 MB released
+scvg: inuse: 593, idle: 1450, sys: 2044, released: 999, consumed: 1044 (MB)
+scvg: 2 MB released
+scvg: inuse: 595, idle: 1448, sys: 2044, released: 1001, consumed: 1042 (MB)
+scvg: 2 MB released
+scvg: inuse: 597, idle: 1446, sys: 2044, released: 1003, consumed: 1040 (MB)
+scvg: 2 MB released
+scvg: inuse: 599, idle: 1444, sys: 2044, released: 1005, consumed: 1038 (MB)
+scvg: 2 MB released
+scvg: inuse: 601, idle: 1442, sys: 2044, released: 1007, consumed: 1036 (MB)
+scvg: 2 MB released
+scvg: inuse: 603, idle: 1440, sys: 2044, released: 1009, consumed: 1034 (MB)
+scvg: 2 MB released
+scvg: inuse: 605, idle: 1438, sys: 2044, released: 1011, consumed: 1032 (MB)
+scvg: 2 MB released
+scvg: inuse: 607, idle: 1436, sys: 2044, released: 1013, consumed: 1030 (MB)
+scvg: 2 MB released
+scvg: inuse: 609, idle: 1434, sys: 2044, released: 1015, consumed: 1028 (MB)
+scvg: 2 MB released
+scvg: inuse: 611, idle: 1432, sys: 2044, released: 1017, consumed: 1026 (MB)
+scvg: 2 MB released
+scvg: inuse: 613, idle: 1430, sys: 2044, released: 1019, consumed: 1024 (MB)
+scvg: 2 MB released
+scvg: inuse: 615, idle: 1428, sys: 2044, released: 1021, consumed: 1022 (MB)
+scvg: 2 MB released
+scvg: inuse: 617, idle: 1426, sys: 2044, released: 1023, consumed: 1020 (MB)
+scvg: 2 MB released
+scvg: inuse: 619, idle: 1424, sys: 2044, released: 1025, consumed: 1018 (MB)
+scvg: 2 MB released
+scvg: inuse: 621, idle: 1422, sys: 2044, released: 1027, consumed: 1016 (MB)
+scvg: 2 MB released
+scvg: inuse: 623, idle: 1420, sys: 2044, released: 1029, consumed: 1014 (MB)
+scvg: 2 MB released
+scvg: inuse: 625, idle: 1418, sys: 2044, released: 1031, consumed: 1012 (MB)
+scvg: 2 MB released
+scvg: inuse: 627, idle: 1416, sys: 2044, released: 1033, consumed: 1010 (MB)
+scvg: 2 MB released
+scvg: inuse: 629, idle: 1415, sys: 2044, released: 1035, consumed: 1008 (MB)
+scvg: 2 MB released
+scvg: inuse: 631, idle: 1413, sys: 2044, released: 1037, consumed: 1006 (MB)
+scvg: 2 MB released
+scvg: inuse: 633, idle: 1411, sys: 2044, released: 1039, consumed: 1004 (MB)
+scvg: 2 MB released
+scvg: inuse: 635, idle: 1409, sys: 2044, released: 1041, consumed: 1002 (MB)
+scvg: 2 MB released
+scvg: inuse: 637, idle: 1407, sys: 2044, released: 1043, consumed: 1000 (MB)
+scvg: 2 MB released
+scvg: inuse: 639, idle: 1405, sys: 2044, released: 1045, consumed: 998 (MB)
+scvg: 2 MB released
+scvg: inuse: 640, idle: 1403, sys: 2044, released: 1047, consumed: 996 (MB)
+scvg: 2 MB released
+scvg: inuse: 642, idle: 1401, sys: 2044, released: 1049, consumed: 994 (MB)
+scvg: 2 MB released
+scvg: inuse: 644, idle: 1399, sys: 2044, released: 1051, consumed: 992 (MB)
+scvg: 2 MB released
+scvg: inuse: 646, idle: 1397, sys: 2044, released: 1053, consumed: 990 (MB)
+scvg: 2 MB released
+scvg: inuse: 648, idle: 1395, sys: 2044, released: 1055, consumed: 988 (MB)
+scvg: 2 MB released
+scvg: inuse: 663, idle: 1381, sys: 2044, released: 1057, consumed: 986 (MB)
+scvg: 2 MB released
+scvg: inuse: 663, idle: 1380, sys: 2044, released: 1059, consumed: 984 (MB)
+scvg: 2 MB released
+scvg: inuse: 665, idle: 1379, sys: 2044, released: 1061, consumed: 982 (MB)
+scvg: 2 MB released
+scvg: inuse: 667, idle: 1377, sys: 2044, released: 1063, consumed: 980 (MB)
+scvg: 2 MB released
+scvg: inuse: 669, idle: 1375, sys: 2044, released: 1065, consumed: 978 (MB)
+scvg: 2 MB released
+scvg: inuse: 671, idle: 1373, sys: 2044, released: 1067, consumed: 976 (MB)
+scvg: 2 MB released
+scvg: inuse: 673, idle: 1371, sys: 2044, released: 1069, consumed: 974 (MB)
+scvg: 2 MB released
+scvg: inuse: 675, idle: 1369, sys: 2044, released: 1071, consumed: 972 (MB)
+scvg: 2 MB released
+scvg: inuse: 677, idle: 1367, sys: 2044, released: 1073, consumed: 970 (MB)
+scvg: 2 MB released
+scvg: inuse: 679, idle: 1365, sys: 2044, released: 1075, consumed: 968 (MB)
+scvg: 2 MB released
+scvg: inuse: 681, idle: 1363, sys: 2044, released: 1077, consumed: 966 (MB)
+scvg: 2 MB released
+scvg: inuse: 683, idle: 1361, sys: 2044, released: 1079, consumed: 964 (MB)
+scvg: 2 MB released
+scvg: inuse: 685, idle: 1359, sys: 2044, released: 1081, consumed: 962 (MB)
+scvg: 2 MB released
+scvg: inuse: 687, idle: 1357, sys: 2044, released: 1083, consumed: 960 (MB)
+scvg: 2 MB released
+scvg: inuse: 689, idle: 1355, sys: 2044, released: 1085, consumed: 958 (MB)
+scvg: 2 MB released
+scvg: inuse: 691, idle: 1353, sys: 2044, released: 1087, consumed: 956 (MB)
+scvg: 2 MB released
+scvg: inuse: 693, idle: 1351, sys: 2044, released: 1089, consumed: 954 (MB)
+scvg: 2 MB released
+scvg: inuse: 694, idle: 1349, sys: 2044, released: 1091, consumed: 952 (MB)
+scvg: 2 MB released
+scvg: inuse: 696, idle: 1347, sys: 2044, released: 1093, consumed: 950 (MB)
+scvg: 2 MB released
+scvg: inuse: 698, idle: 1345, sys: 2044, released: 1095, consumed: 948 (MB)
+scvg: 2 MB released
+scvg: inuse: 700, idle: 1343, sys: 2044, released: 1097, consumed: 946 (MB)
+scvg: 2 MB released
+scvg: inuse: 702, idle: 1341, sys: 2044, released: 1099, consumed: 944 (MB)
+gc 11 @4.430s 0%: 0.028+41+0.092 ms clock, 2.5+0.65/390/791+8.1 ms cpu, 855->858->450 MB, 875 MB goal, 88 P
+gc 12 @5.482s 0%: 0.044+31+0.074 ms clock, 3.8+0.59/407/833+6.5 ms cpu, 878->883->462 MB, 901 MB goal, 88 P
+gc 13 @6.538s 0%: 0.028+35+0.080 ms clock, 2.4+0.78/430/763+7.1 ms cpu, 901->905->472 MB, 924 MB goal, 88 P
+gc 14 @7.652s 0%: 0.044+45+0.070 ms clock, 3.9+1.0/424/772+6.2 ms cpu, 922->929->488 MB, 945 MB goal, 88 P
+gc 15 @9.145s 0%: 0.042+24+0.079 ms clock, 3.7+1.9/426/1022+7.0 ms cpu, 952->955->498 MB, 977 MB goal, 88 P
+gc 16 @10.371s 0%: 0.025+35+0.11 ms clock, 2.2+1.9/381/888+10 ms cpu, 971->976->516 MB, 996 MB goal, 88 P
+gc 17 @11.472s 0%: 0.022+118+0.072 ms clock, 2.0+8.4/392/1000+6.3 ms cpu, 1024->1028->535 MB, 1033 MB goal, 88 P
+gc 18 @12.841s 0%: 0.021+36+0.083 ms clock, 1.8+0.92/463/882+7.3 ms cpu, 1043->1047->542 MB, 1070 MB goal, 88 P
+gc 19 @13.954s 0%: 0.045+26+0.077 ms clock, 3.9+2.4/476/983+6.8 ms cpu, 1058->1061->564 MB, 1085 MB goal, 88 P
+gc 20 @15.263s 0%: 0.020+32+0.068 ms clock, 1.7+4.1/430/1040+6.0 ms cpu, 1100->1105->574 MB, 1128 MB goal, 88 P
+gc 21 @16.109s 0%: 0.016+148+0.077 ms clock, 1.4+0.37/434/911+6.8 ms cpu, 1121->1129->603 MB, 1148 MB goal, 88 P
+gc 22 @17.246s 0%: 0.018+27+0.060 ms clock, 1.5+1.3/460/1173+5.3 ms cpu, 1176->1179->606 MB, 1206 MB goal, 88 P
+gc 23 @18.290s 0%: 0.024+76+0.081 ms clock, 2.1+0.92/500/931+7.2 ms cpu, 1183->1197->626 MB, 1213 MB goal, 88 P
+gc 24 @19.571s 0%: 0.044+30+0.068 ms clock, 3.8+0.65/537/1111+6.0 ms cpu, 1221->1225->648 MB, 1252 MB goal, 88 P
+gc 25 @21.589s 0%: 0.053+54+0.088 ms clock, 4.7+0.87/564/983+7.8 ms cpu, 1264->1273->661 MB, 1296 MB goal, 88 P
+gc 26 @23.648s 0%: 0.023+39+0.11 ms clock, 2.0+1.2/502/1286+10 ms cpu, 1290->1295->666 MB, 1323 MB goal, 88 P
+gc 27 @25.170s 0%: 0.064+49+0.082 ms clock, 5.6+1.5/596/956+7.2 ms cpu, 1300->1307->707 MB, 1333 MB goal, 88 P
+gc 28 @27.074s 0%: 0.022+31+0.074 ms clock, 1.9+1.1/574/1059+6.5 ms cpu, 1379->1383->714 MB, 1415 MB goal, 88 P
+gc 29 @28.902s 0%: 0.022+29+0.064 ms clock, 1.9+1.1/551/1326+5.7 ms cpu, 1392->1395->723 MB, 1428 MB goal, 88 P
+gc 30 @30.224s 0%: 0.016+44+0.071 ms clock, 1.4+1.2/699/907+6.2 ms cpu, 1410->1417->772 MB, 1446 MB goal, 88 P
+scvg: 0 MB released
+scvg: inuse: 1418, idle: 625, sys: 2043, released: 352, consumed: 1690 (MB)
+scvg: 2 MB released
+scvg: inuse: 1374, idle: 669, sys: 2043, released: 354, consumed: 1688 (MB)
+scvg: 2 MB released
+scvg: inuse: 1219, idle: 823, sys: 2043, released: 356, consumed: 1686 (MB)
+scvg: 2 MB released
+scvg: inuse: 1048, idle: 994, sys: 2043, released: 358, consumed: 1684 (MB)
+scvg: 2 MB released
+scvg: inuse: 996, idle: 1047, sys: 2043, released: 360, consumed: 1682 (MB)
+scvg: 0 MB released
+scvg: inuse: 836, idle: 1207, sys: 2043, released: 361, consumed: 1682 (MB)
+scvg: 2 MB released
+scvg: inuse: 837, idle: 1206, sys: 2043, released: 363, consumed: 1680 (MB)
+scvg: 2 MB released
+scvg: inuse: 845, idle: 1198, sys: 2043, released: 365, consumed: 1678 (MB)
+scvg: 2 MB released
+scvg: inuse: 855, idle: 1188, sys: 2043, released: 367, consumed: 1676 (MB)
+scvg: 2 MB released
+scvg: inuse: 865, idle: 1178, sys: 2043, released: 369, consumed: 1674 (MB)
+scvg: 2 MB released
+scvg: inuse: 876, idle: 1167, sys: 2043, released: 371, consumed: 1672 (MB)
+scvg: 2 MB released
+scvg: inuse: 886, idle: 1157, sys: 2043, released: 373, consumed: 1670 (MB)
+scvg: 2 MB released
+scvg: inuse: 896, idle: 1147, sys: 2043, released: 375, consumed: 1668 (MB)
+scvg: 2 MB released
+scvg: inuse: 905, idle: 1137, sys: 2043, released: 377, consumed: 1666 (MB)
+gc 31 @31.626s 0%: 0.023+34+0.079 ms clock, 2.0+1.4/643/1090+6.9 ms cpu, 1506->1511->781 MB, 1545 MB goal, 88 P
+gc 32 @33.662s 0%: 0.044+37+0.077 ms clock, 3.8+1.4/674/1246+6.8 ms cpu, 1524->1529->791 MB, 1563 MB goal, 88 P
+gc 33 @35.722s 0%: 0.042+40+0.070 ms clock, 3.7+2.4/744/1128+6.2 ms cpu, 1543->1552->806 MB, 1583 MB goal, 88 P
+gc 34 @36.898s 0%: 0.11+53+0.091 ms clock, 9.9+4.3/630/1105+8.0 ms cpu, 1572->1578->861 MB, 1612 MB goal, 88 P
+gc 35 @38.845s 0%: 0.065+35+0.076 ms clock, 5.7+0.98/639/1209+6.7 ms cpu, 1679->1684->871 MB, 1722 MB goal, 88 P
+scvg: 0 MB released
+scvg: inuse: 1685, idle: 613, sys: 2299, released: 416, consumed: 1883 (MB)
+scvg: 2 MB released
+scvg: inuse: 1660, idle: 638, sys: 2299, released: 418, consumed: 1881 (MB)
+scvg: 2 MB released
+scvg: inuse: 977, idle: 1322, sys: 2299, released: 420, consumed: 1879 (MB)
+scvg: 2 MB released
+scvg: inuse: 1041, idle: 1258, sys: 2299, released: 422, consumed: 1877 (MB)
+gc 36 @40.784s 0%: 0.022+44+0.092 ms clock, 1.9+1.0/644/1319+8.1 ms cpu, 1700->1706->884 MB, 1743 MB goal, 88 P
+gc 37 @42.286s 0%: 0.019+43+0.060 ms clock, 1.6+1.6/644/1350+5.2 ms cpu, 1724->1729->895 MB, 1769 MB goal, 88 P
+gc 38 @43.527s 0%: 0.30+379+0.073 ms clock, 26+0.52/697/1512+6.4 ms cpu, 1759->1764->965 MB, 1790 MB goal, 88 P
+gc 39 @46.054s 0%: 0.14+52+0.070 ms clock, 12+1.1/718/1233+6.2 ms cpu, 1882->1891->981 MB, 1931 MB goal, 88 P
+scvg: 0 MB released
+scvg: inuse: 1892, idle: 727, sys: 2619, released: 481, consumed: 2138 (MB)
+scvg: 2 MB released
+scvg: inuse: 1840, idle: 779, sys: 2619, released: 483, consumed: 2136 (MB)
+scvg: 2 MB released
+scvg: inuse: 1711, idle: 907, sys: 2619, released: 485, consumed: 2134 (MB)
+scvg: 2 MB released
+scvg: inuse: 1596, idle: 1022, sys: 2619, released: 487, consumed: 2132 (MB)
+scvg: 2 MB released
+scvg: inuse: 1501, idle: 1118, sys: 2619, released: 489, consumed: 2130 (MB)
+scvg: 2 MB released
+scvg: inuse: 1412, idle: 1207, sys: 2619, released: 491, consumed: 2128 (MB)
+scvg: 2 MB released
+scvg: inuse: 1302, idle: 1316, sys: 2619, released: 493, consumed: 2126 (MB)
+scvg: 2 MB released
+scvg: inuse: 1186, idle: 1432, sys: 2619, released: 495, consumed: 2124 (MB)
+scvg: 2 MB released
+scvg: inuse: 1076, idle: 1543, sys: 2619, released: 497, consumed: 2122 (MB)
+scvg: 2 MB released
+scvg: inuse: 1080, idle: 1539, sys: 2619, released: 499, consumed: 2120 (MB)
+scvg: 2 MB released
+scvg: inuse: 1083, idle: 1535, sys: 2619, released: 501, consumed: 2118 (MB)
+scvg: 2 MB released
+scvg: inuse: 1088, idle: 1531, sys: 2619, released: 503, consumed: 2116 (MB)
+scvg: 2 MB released
+scvg: inuse: 1092, idle: 1527, sys: 2619, released: 505, consumed: 2114 (MB)
+gc 40 @47.894s 0%: 0.044+138+0.11 ms clock, 3.9+0/502/976+10 ms cpu, 1917->1917->645 MB, 1963 MB goal, 88 P
+scvg: 2 MB released
+scvg: inuse: 1740, idle: 879, sys: 2619, released: 321, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1349, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2297 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 578, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2296 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 579, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 580, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 580, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 580, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 580, consumed: 2295 (MB)
+scvg: 0 MB released
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 580, consumed: 2295 (MB)
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 580, consumed: 2295 (MB)
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 580, consumed: 2295 (MB)
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 580, consumed: 2295 (MB)
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 580, consumed: 2295 (MB)
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 580, consumed: 2295 (MB)
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 580, consumed: 2295 (MB)
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 580, consumed: 2295 (MB)
+scvg: inuse: 1526, idle: 1348, sys: 2875, released: 580, consumed: 2295 (MB)
+gc 41 @48.673s 0%: 0.054+405+0.077 ms clock, 4.7+0/533/1719+6.8 ms cpu, 1474->1474->810 MB, 1475 MB goal, 88 P
+scvg: 1 MB released
+scvg: inuse: 1045, idle: 1830, sys: 2875, released: 581, consumed: 2293 (MB)
+scvg: inuse: 1171, idle: 2024, sys: 3195, released: 903, consumed: 2292 (MB)
+scvg: inuse: 1171, idle: 2024, sys: 3195, released: 903, consumed: 2292 (MB)
+scvg: inuse: 1171, idle: 2024, sys: 3195, released: 903, consumed: 2292 (MB)
+scvg: inuse: 1171, idle: 2024, sys: 3195, released: 903, consumed: 2292 (MB)
+scvg: inuse: 1171, idle: 2024, sys: 3195, released: 903, consumed: 2292 (MB)
+scvg: inuse: 1171, idle: 2024, sys: 3195, released: 903, consumed: 2292 (MB)
+scvg: inuse: 1171, idle: 2024, sys: 3195, released: 903, consumed: 2292 (MB)
+scvg: inuse: 1171, idle: 2024, sys: 3195, released: 903, consumed: 2292 (MB)
+scvg: inuse: 1171, idle: 2024, sys: 3195, released: 903, consumed: 2292 (MB)
+scvg: inuse: 1171, idle: 2024, sys: 3195, released: 903, consumed: 2292 (MB)
+num filtered words: 17609533
+scvg: inuse: 1173, idle: 2022, sys: 3195, released: 903, consumed: 2292 (MB)
+scvg: 6 MB released
+scvg: inuse: 1178, idle: 2016, sys: 3195, released: 903, consumed: 2292 (MB)
+scvg: 8 MB released
+scvg: inuse: 1186, idle: 2009, sys: 3195, released: 904, consumed: 2290 (MB)
+scvg: 14 MB released
+scvg: inuse: 1201, idle: 1994, sys: 3195, released: 905, consumed: 2290 (MB)
+scvg: 2 MB released
+scvg: inuse: 1201, idle: 1994, sys: 3195, released: 907, consumed: 2288 (MB)
+scvg: 2 MB released
+scvg: inuse: 1201, idle: 1994, sys: 3195, released: 909, consumed: 2286 (MB)
+num different words: 385372
+	Command being timed: "env GOMAXPROCS=88 GOGC=on GODEBUG=gctrace=1 ./wordcount datasets/wiki0.01.txt"
+	User time (seconds): 104.59
+	System time (seconds): 2.08
+	Percent of CPU this job got: 209%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:50.92
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3100624
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 114021
+	Voluntary context switches: 14155
+	Involuntary context switches: 1301
+	Swaps: 0
+	File system inputs: 216394
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+ Performance counter stats for '/usr/bin/time -v env GOMAXPROCS=88 GOGC=on GODEBUG=gctrace=1 ./wordcount datasets/wiki0.01.txt':
+
+     1,238,523,746      cache-references                                            
+       728,637,244      cache-misses              #   58.831 % of all cache refs    
+   224,078,429,498      cycles                                                      
+   439,207,730,900      instructions              #    1.96  insn per cycle         
+    91,638,772,389      branches                                                    
+           114,079      faults                                                      
+               599      migrations                                                  
+
+      50.929308150 seconds time elapsed
+
+     104.595283000 seconds user
+       2.087435000 seconds sys
+
+
