@@ -3,4 +3,5 @@ wordcount*
 !*.cpp
 !*.txt
 .vscode/
+r*hs/
 
