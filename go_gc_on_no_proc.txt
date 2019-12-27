@@ -1,21 +1,21 @@
 num origin words: 20385718
 num filtered words: 17609533
 num different words: 385372
-	Command being timed: "env GOMAXPROCS=1 ./wordcount datasets/wiki0.01.txt"
-	User time (seconds): 54.79
-	System time (seconds): 1.62
-	Percent of CPU this job got: 100%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:56.35
+	Command being timed: "env ./wordcount datasets/wiki0.01.txt"
+	User time (seconds): 102.84
+	System time (seconds): 1.80
+	Percent of CPU this job got: 208%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:50.10
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 4392568
+	Maximum resident set size (kbytes): 2883284
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 1
-	Minor (reclaiming a frame) page faults: 162733
-	Voluntary context switches: 5900
-	Involuntary context switches: 111
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 79401
+	Voluntary context switches: 14103
+	Involuntary context switches: 919
 	Swaps: 0
 	File system inputs: 216394
 	File system outputs: 0
