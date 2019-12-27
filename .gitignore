@@ -1,4 +1,4 @@
-datasets/
+datasets*
 wordcount*
 !*.cpp
 !*.txt
