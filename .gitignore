@@ -1,3 +1,4 @@
 datasets/
-wordcount
+wordcount*
+.vscode/
 
