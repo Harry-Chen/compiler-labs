@@ -1,0 +1,5 @@
+num origin words: 2193010
+num filtered words: 1890358
+num different words: 89784
+Reference increase count: 28083132
+Reference decrease count: 26102990
