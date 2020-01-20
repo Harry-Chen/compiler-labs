@@ -1,0 +1,45 @@
+num origin words: 20385718
+num filtered words: 17609533
+num different words: 385372
+Reference increase count: 269527652
+Reference decrease count: 251532747
+	Command being timed: "./wordcount_refcount datasets/wiki0.01.txt"
+	User time (seconds): 22.22
+	System time (seconds): 2.51
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:24.74
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3859612
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1325056
+	Voluntary context switches: 1
+	Involuntary context switches: 27
+	Swaps: 0
+	File system inputs: 216398
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+ Performance counter stats for '/usr/bin/time -v ./wordcount_refcount datasets/wiki0.01.txt':
+
+       955,894,820      cache-references                                            
+       489,632,958      cache-misses              #   51.222 % of all cache refs    
+    75,059,925,199      cycles                                                      
+   155,012,819,607      instructions              #    2.07  insn per cycle         
+    30,990,367,463      branches                                                    
+         1,325,113      faults                                                      
+                 0      migrations                                                  
+
+      24.748879400 seconds time elapsed
+
+      22.228568000 seconds user
+       2.519854000 seconds sys
+
+

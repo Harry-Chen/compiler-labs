@@ -1,0 +1,43 @@
+num origin words: 20385718
+num filtered words: 17609533
+num different words: 385372
+	Command being timed: "env GOMAXPROCS=1 GOGC=on ./wordcount datasets/wiki0.01.txt"
+	User time (seconds): 55.28
+	System time (seconds): 1.96
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:57.09
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4407756
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 246907
+	Voluntary context switches: 5936
+	Involuntary context switches: 74
+	Swaps: 0
+	File system inputs: 216394
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+ Performance counter stats for '/usr/bin/time -v env GOMAXPROCS=1 GOGC=on ./wordcount datasets/wiki0.01.txt':
+
+     1,088,624,356      cache-references                                            
+       643,053,596      cache-misses              #   59.070 % of all cache refs    
+   191,601,072,504      cycles                                                      
+   431,226,705,042      instructions              #    2.25  insn per cycle         
+    89,050,389,700      branches                                                    
+           246,962      faults                                                      
+                 1      migrations                                                  
+
+      57.094455260 seconds time elapsed
+
+      55.282395000 seconds user
+       1.961179000 seconds sys
+
+
